@@ -1,0 +1,76 @@
+/* Объявление пользовательских цветов */
+:root {
+    --GRAY_10: #FCFCFC;
+    --GRAY_30: #343434;
+    --Firma_Green: #258640;
+    --GRAY_20: #6D6D6D;
+    --GRAY: #F4F4F4;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--GRAY_10);
+}
+
+/* Стили для верхнего меню */
+.header-menu {
+    background-color: var(--GRAY_10);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Общие стили для элементов списка меню */
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Общие стили для элементов списка меню */
+.menu-list li {
+    margin-right: 64px;
+}
+
+/* Стили для ссылок в списке меню */
+.menu-list li a {
+    text-decoration: none;
+}
+
+/* Стили для первого элемента списка меню (надпись "Плантация") */
+.menu-list li:first-child {
+    margin-left: 140px;
+}
+
+.menu-list > li:first-child a {
+    font-size: 26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: var(--Firma_Green);
+}
+
+/* Стили для последнего элемента списка меню (корзина) */
+.menu-list li:last-child {
+    margin-right: 140px;
+}
+
+
+/* Стили для подменю */
+.submenu_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.submenu_list li {
+    display: inline-block;
+}
+
+.submenu_list li a {
+    color: var(--GRAY_30);
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

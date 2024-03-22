@@ -1,0 +1,76 @@
+.main-catalog {
+   margin-left: 120px;
+   margin-right: 120px;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 124px;
+    margin-bottom: 48px;
+}
+
+#Catalog_title {
+    color: var(--GRAY_30);
+}
+
+.catalog-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.item {
+    margin-right: 42px;
+    background-color: var(--GRAY);
+}
+
+h3 {
+    margin: 8px;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold; 
+    color: var(--GRAY_30);
+}
+
+.description {
+   margin: 8px;
+   font-size: 18px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bold; 
+   color: var(--GRAY_30);
+}
+
+.plant-country {
+    margin: 8px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--GRAY_30);
+}
+
+.plant-price {
+    margin: 8px;
+    color: var(--GRAY_30);
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold; 
+}
+
+.detailsButton {
+    margin: 8px;
+    background-color: var(--Firma_Green);
+    color: var(--GRAY_10);
+    padding: 12px 18px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.plant-img {
+    width: 100%;
+    height: auto; /* Это для сохранения пропорций, чтобы изображение не искажалось */
+}

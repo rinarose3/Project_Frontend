@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Плантация</title>
+        <link rel="stylesheet" href="style_menu.css">
+        <link rel="stylesheet" href="style_title.css">
+        <link rel="stylesheet" href="style_catalog.css">
+        <script src="script.js"></script>
+    </head>
+<body>
+    <header class="header-menu">
+        <nav class="nаvigation">           
+            <ul class="menu-list">
+                <li><a href="#">Плантация</a></li>
+                <li class="sub-menu">
+                    <ul class="submenu_list">
+                        <li><a href="#price">Каталог</a></li>
+                       <li><a href="#stock">Акции</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul> 
+                </li>
+                <li><a href="bag"><img src="Image/shopping-bag.png" alt="Корзина"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="home-page">
+        <section class="title-price">
+            <div class="title_container">
+                <h1 id="title">Магазин комнатных растений <span class="highlight">Плантация</span></h1>
+                <p>Всегда свежие растения и цветы из лучших питомников Европы. Наши цветы приносят радость своим владельцам каждый день.</p>
+                <div class="screensaver">
+                    <button id="catalogButton">Каталог</button>
+                    <button id="contactButton">Связаться</button>
+                </div>  
+            </div>
+            <img src="Image/illustration.svg" alt="Растение в руках">
+        </section>
+        <section class="main-catalog">
+            <h2 id="Catalog_title">Каталог</h2>
+            <div class="catalog-items">
+            </div>
+        </section>
+        <section class="main-stocks">
+            <h2>Акции</h2>
+            <div class="stock">
+                <h3 class="stock-name"></h3>
+                <p class="description-stock"></p>
+                <img class="stock_img">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2 class="contacts">Контакты</h2>
+        <div class="contact-info">
+            <h3>Адрес магазина:</h3>
+            <p></p>
+            <h3>Телефон:</h3>
+            <p></p>
+            <h3>E-mail:</h3>
+            <p></p>
+            <h3>Соцсети:</h3>
+            <div>
+                <img id="telegram">
+                <img id="youtube">
+                <img id="vk">
+            </div>
+        </div>
+        <img id="map">
+        <div class="Feedback">
+            <h3 class="contacts-title">Адрес магазина:</h3>
+            <input type="text">
+            <input type="email">
+            <input type="text">
+            <button id="sendButton">Отправить</button> 
+        </div>
+    </footer>
+</body>
+</html>
